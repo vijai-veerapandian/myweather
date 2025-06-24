@@ -11,7 +11,7 @@ spec:
     branch: main
   secretRef:
     name: flux-system
-  url: ssh://git@github.com/vijai-veerapandian/kube-apps
+  url: ssh://git@github.com/vijai-veerapandian/myweather-k8s
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
