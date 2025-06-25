@@ -19,6 +19,7 @@ spec:
       labels:
         io.kompose.service: backend
     spec:
+      #      serviceAccountName: myweather-backend-sa
       containers:
         - env:
             - name: GEMINI_API_KEY
