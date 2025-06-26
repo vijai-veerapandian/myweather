@@ -7,4 +7,5 @@ resources:
   - cloudflare.yaml
   - cloudflare-secret.yaml
   - ingress.yaml
-  - backend-secret.yaml 
+  - backend-externalsecret.yaml 
+  - eso-secret-store.yaml

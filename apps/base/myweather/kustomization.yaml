@@ -4,6 +4,7 @@ namespace: myweather
 resources:
   - backend-configmap.yaml
   - backend-deployment.yaml
+  - backend-sa.yaml
   - backend-service.yaml
   - frontend-configmap.yaml
   - frontend-deployment.yaml
