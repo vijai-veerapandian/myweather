@@ -8,7 +8,7 @@ metadata:
 spec:
   interval: 1m0s
   ref:
-    branch: main
+    branch: feature/vault-integration
   secretRef:
     name: flux-system
   url: ssh://git@github.com/vijai-veerapandian/myweather
