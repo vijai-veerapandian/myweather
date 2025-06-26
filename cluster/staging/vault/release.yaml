@@ -21,9 +21,11 @@ spec:
       dataStorage:
         enabled: true
         size: 1Gi
+        storageClassName: longhorn
       auditStorage:
         enabled: true
         size: 1Gi
+        storageClassName: longhorn
       ha:
         enabled: true
         replicas: 1
