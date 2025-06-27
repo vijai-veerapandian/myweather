@@ -4,8 +4,9 @@ namespace: myweather
 resources:
   - ../../base/myweather/
   - namespace.yaml 
+  - cloudflare-sa.yaml
   - cloudflare.yaml
-  - cloudflare-secret.yaml
+  - cloudflare-externalsecret.yaml
   - ingress.yaml
   - backend-externalsecret.yaml 
   - eso-secret-store.yaml

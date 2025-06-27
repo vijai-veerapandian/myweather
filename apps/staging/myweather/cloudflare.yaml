@@ -13,6 +13,7 @@ spec:
       labels:
         app: cloudflared-myweather
     spec:
+      serviceAccountName: cloudflare-sa
       containers:
       - name: cloudflared-myweather
         image: cloudflare/cloudflared:2024.6.1 # Pinning the image version for stable, repeatable deployments
