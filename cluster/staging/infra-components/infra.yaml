@@ -1,16 +1,13 @@
+# infra.yaml
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
 metadata:
-  name: myweather
+  name: infra
   namespace: flux-system
 spec:
   interval: 10m0s
-  retryInterval: 1m
-  timeout: 5m
-  dependsOn:
-    - name: infra
-  path: ./apps/staging/myweather
   prune: true
   sourceRef:
     kind: GitRepository
     name: flux-system
+  path: ./cluster/staging/infra-components
