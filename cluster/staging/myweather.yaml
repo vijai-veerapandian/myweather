@@ -7,6 +7,11 @@ spec:
   interval: 10m0s
   retryInterval: 1m
   timeout: 5m
+  dependsOn:
+    - name: vault
+      namespace: vault
+    - name: external-secrets
+      namespace: external-secrets
 
   path: ./apps/staging/myweather
   prune: true
