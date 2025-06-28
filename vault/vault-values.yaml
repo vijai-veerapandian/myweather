@@ -1,0 +1,34 @@
+# vault-values.yaml
+global:
+  tlsDisable: true
+server:
+  replicas: 1
+  # Configure data storage to use Longhorn
+  dataStorage:
+    enabled: true
+    size: 1Gi
+    storageClassName: longhorn
+  # Configure audit storage to use Longhorn
+  auditStorage:
+    enabled: true
+    size: 1Gi
+    storageClassName: longhorn
+  # Configure HA with Raft backend
+  ha:
+    enabled: true
+    replicas: 1
+    raft:
+      enabled: true
+      config: |
+        ui = true
+        listener "tcp" {
+          address = "[::]:8200"
+          cluster_address = "[::]:8201"
+          tls_disable = "true"
+        }
+        storage "raft" {
+          path = "/vault/data"
+        }
+        disable_mlock = true
+ui:
+  enabled: true
