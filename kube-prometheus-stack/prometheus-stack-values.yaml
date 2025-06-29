@@ -1,0 +1,11 @@
+grafana:
+  adminPassword: admin
+  ingress:
+    enabled: true
+    ingressClassName: traefik
+    hosts:
+      - grs.vijaiveerapandian.com
+    tls:
+      - secretName: grafana-tls-secret
+        hosts:
+          - grs.vijaiveerapandian.com
