@@ -49,7 +49,7 @@ High level overview of the architecture.
 
 Diagram or description of all components, their interactions, and how data flows through the system.
 
-![Detailed Architecture](./assets/myweather-version2.drawio.jpg)
+![Detailed Architecture](./assets/myweather-version3.drawio.jpg)
 - Frontend (React JS)
 - Backend microservices
 - AI-powered summarizer
