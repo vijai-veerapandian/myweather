@@ -1,6 +1,6 @@
 # MyWeather
 
-Personal skill Project, It's a fully automated, cloud-native microservices platform for real-time weather insights, powered by AI and running on a local, multi-node Kubernetes homelab.
+Personal skill demonstration Project, It's a fully automated, cloud-native microservices platform for real-time weather insights, powered by AI and running on a local, multi-node Kubernetes homelab.
 
 Access the live app: [myweather.vijaiveerapandian.com](https://myweather.vijaiveerapandian.com/)
 GitHub repository: [github.com/vijai-veerapandian/myweather](https://github.com/vijai-veerapandian/myweather.git)
