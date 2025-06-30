@@ -42,7 +42,7 @@ MyWeather started as a simple React JS weather app inspired by FreeCodeCamp and 
 
 High level overview of the architecture.
 
-![Simple Architecture](./assets/Simple-architecture.png)
+![Simple Architecture](./assets/simple-architecture.png)
 
 ## Detailed Architecture
 
