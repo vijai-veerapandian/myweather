@@ -1,10 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
-# Please provide me a Readme file for this project. and leave heading for myweather search screeshot, Overview Architecture and detail architecture and Grafana Monitoring screenshot and also list these technical stack used list: Based on my previous personal project - my weather app. Started as a basic weather React JS app inspired by FreeCodeCamp. I have evolved it into a fully automated, cloud-native microservices platform running on my local, multi-node Kubernetes homelab. The app leverages free OpenWeather API and an AI power Weather summarizer for enhanced user experience as explained in previous post.
-
-Feel free to access the URL:  https://myweather.vijaiveerapandian.com/
-
-GitHub repo:  https://github.com/vijai-veerapandian/myweather.git
 
 Technical stack used:
 
@@ -15,9 +8,7 @@ Technical stack used:
 * Observability: Prometheus, Grafana, Alertmanager provides monitoring and alerts.
 * Edge Security and DNS: Cloudflare for DNS management and DDoS protection for public endpoints.
 
-Certainly! Below is a well-structured README file template for your MyWeather app project. You can fill in the architecture and screenshot sections as you see fit.
-
-# MyWeather App
+# MyWeather
 
 A fully automated, cloud-native microservices platform for real-time weather insights, powered by AI and running on a local, multi-node Kubernetes homelab.
 
@@ -47,29 +38,20 @@ MyWeather started as a simple React JS weather app inspired by FreeCodeCamp and 
 
 ## MyWeather Search Screenshot
 
-<!--
-Insert or link to a screenshot of your weather search UI here.
-Example:
-
--->
+(./assets/myweather.jpg)
 
 ## Architecture Overview
 
-<!--
-Describe the high-level architecture. 
-Example:
-- Microservices-based architecture
-- Automated CI/CD pipeline
-- Secure secrets management
-- Observability and monitoring
-- Edge security and DNS management
--->
+High level overview of the architecture.
+
+(./assets/Simple-architecture.png)
 
 ## Detailed Architecture
 
-<!--
-Provide a detailed diagram or description of all components, their interactions, and how data flows through the system.
-Example:
+
+Diagram or description of all components, their interactions, and how data flows through the system.
+
+(./assets/myweather-version2.drawio.jpg)
 - Frontend (React JS)
 - Backend microservices
 - AI-powered summarizer
@@ -77,15 +59,13 @@ Example:
 - Persistent storage
 - Monitoring stack
 - Secret management workflow
--->
+
 
 ## Grafana Monitoring Screenshot
 
-<!--
-Insert or link to a screenshot of your Grafana dashboard here.
-Example:
+(./assets/grafana-dashboard1.jpg)
 
--->
+(./assets/grafana-dashboard2.jpg)
 
 ## Technical Stack
 
