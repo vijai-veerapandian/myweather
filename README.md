@@ -25,8 +25,6 @@ GitHub repository: [github.com/vijai-veerapandian/myweather](https://github.com/
 - [Technical Stack](#technical-stack)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
-- [License](#license)
-
 
 ## Overview
 
@@ -91,10 +89,3 @@ Diagram or description of all components, their interactions, and how data flows
 ## Contributing
 
 Contributions are welcome! Please open issues or submit pull requests via [GitHub](https://github.com/vijai-veerapandian/myweather).
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-*Feel free to update the sections above with your screenshots, architecture diagrams, and additional details as your project evolves!*
-
