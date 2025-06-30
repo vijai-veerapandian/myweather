@@ -59,7 +59,7 @@ Diagram or description of all components, their interactions, and how data flows
 - Secret management workflow
 
 
-## Grafana Monitoring Screenshot
+## Grafana Monitoring
 
 ![Grafana Monitoring Screenshot](./assets/grafana-dashboard1.jpg)
 
