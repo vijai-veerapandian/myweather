@@ -34,7 +34,7 @@ Example:
 MyWeather started as a simple React JS weather app inspired by FreeCodeCamp and has evolved into a robust, cloud-native platform. It fetches real-time weather data using the OpenWeather API and provides AI-powered weather summaries for enhanced user experience. The platform is fully automated, leveraging modern DevOps and cloud-native technologies.
 -->
 
-## MyWeather Search Screenshot
+## MyWeather Search
 
 ![MyWeather Search Screenshot](./assets/myweather.jpg)
 
