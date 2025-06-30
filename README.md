@@ -38,7 +38,7 @@ MyWeather started as a simple React JS weather app inspired by FreeCodeCamp and 
 
 ## MyWeather Search Screenshot
 
-(./assets/myweather.jpg)
+![MyWeather Search Screenshot](./assets/myweather.jpg)
 
 ## Architecture Overview
 
@@ -51,7 +51,7 @@ High level overview of the architecture.
 
 Diagram or description of all components, their interactions, and how data flows through the system.
 
-(./assets/myweather-version2.drawio.jpg)
+![Detailed Architecture](./assets/myweather-version2.drawio.jpg)
 - Frontend (React JS)
 - Backend microservices
 - AI-powered summarizer
@@ -63,9 +63,9 @@ Diagram or description of all components, their interactions, and how data flows
 
 ## Grafana Monitoring Screenshot
 
-(./assets/grafana-dashboard1.jpg)
+![Grafana Monitoring Screenshot](./assets/grafana-dashboard1.jpg)
 
-(./assets/grafana-dashboard2.jpg)
+![Grafana Monitoring Screenshot](./assets/grafana-dashboard2.jpg)
 
 ## Technical Stack
 
