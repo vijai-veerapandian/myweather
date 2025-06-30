@@ -40,11 +40,11 @@ MyWeather started as a simple React JS weather app inspired by FreeCodeCamp and 
 
 ![MyWeather Search Screenshot](./assets/myweather.jpg)
 
-## Architecture Overview
+## Architecture Highlevel simple
 
 High level overview of the architecture.
 
-(./assets/Simple-architecture.png)
+![Simple Architecture](./assets/Simple-architecture.png)
 
 ## Detailed Architecture
 
