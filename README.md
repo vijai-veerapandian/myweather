@@ -1,16 +1,6 @@
-
-Technical stack used:
-
-* Multi-node Kubernetes cluster v1.30.14
-* Flux CD for continuous deployment from GitHub repo.
-* Persistent storage: Long-horn stores API secret files
-* Secrets Management: Hashicorp Vault and External Secrets Operator (ESO) automate secure secret delivery to applications.
-* Observability: Prometheus, Grafana, Alertmanager provides monitoring and alerts.
-* Edge Security and DNS: Cloudflare for DNS management and DDoS protection for public endpoints.
-
 # MyWeather
 
-A fully automated, cloud-native microservices platform for real-time weather insights, powered by AI and running on a local, multi-node Kubernetes homelab.
+Personal skill Project, It's a fully automated, cloud-native microservices platform for real-time weather insights, powered by AI and running on a local, multi-node Kubernetes homelab.
 
 Access the live app: [myweather.vijaiveerapandian.com](https://myweather.vijaiveerapandian.com/)
 GitHub repository: [github.com/vijai-veerapandian/myweather](https://github.com/vijai-veerapandian/myweather.git)
@@ -28,11 +18,17 @@ GitHub repository: [github.com/vijai-veerapandian/myweather](https://github.com/
 
 ## Overview
 
-<!--
-Provide a brief description of the project, its purpose, and key features. 
-Example:
-MyWeather started as a simple React JS weather app inspired by FreeCodeCamp and has evolved into a robust, cloud-native platform. It fetches real-time weather data using the OpenWeather API and provides AI-powered weather summaries for enhanced user experience. The platform is fully automated, leveraging modern DevOps and cloud-native technologies.
--->
+MyWeather started as a simple React JS weather app inspired by FreeCodeCamp and has evolved into a robust, cloud-native and will be Multi-cloud platform soon. It fetches real-time weather data using the OpenWeather API and provides AI-powered weather summaries for enhanced user experience.
+
+Technical stack used:
+
+* Multi-node Kubernetes cluster v1.30.14
+* Flux CD for continuous deployment from GitHub repo.
+* Persistent storage: Long-horn stores API secret files
+* Secrets Management: Hashicorp Vault and External Secrets Operator (ESO) automate secure secret delivery to applications.
+* Observability: Prometheus, Grafana, Alertmanager provides monitoring and alerts.
+* Edge Security and DNS: Cloudflare for DNS management and DDoS protection for public endpoints.
+
 
 ## MyWeather Search
 
