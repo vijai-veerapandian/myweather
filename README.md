@@ -1,6 +1,6 @@
 # MyWeather
 
-K8s Cluster(HomeLab) + Flux CD + Myweather + Grafana 
+K8s Cluster(HomeLab) + Longhorn distributed Storage + HashiCorp Vault +  Flux CD + Cloudflare + Myweather + Grafana + SOPS
 
 Personal skill demonstration Project, It's a fully automated, cloud-native microservices platform for real-time weather insights, powered by AI and running on a local, multi-node Kubernetes homelab.
 
