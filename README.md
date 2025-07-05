@@ -1,5 +1,7 @@
 # MyWeather
 
+K8s Cluster(HomeLab) + Flux CD + Myweather + Grafana 
+
 Personal skill demonstration Project, It's a fully automated, cloud-native microservices platform for real-time weather insights, powered by AI and running on a local, multi-node Kubernetes homelab.
 
 Access the live app: [myweather.vijaiveerapandian.com](https://myweather.vijaiveerapandian.com/)
