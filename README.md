@@ -1,4 +1,4 @@
-# MyWeather
+# Myweather application Devops structure
 
 K8s Cluster(HomeLab) + Longhorn distributed Storage + HashiCorp Vault +  Flux CD + Cloudflare + Myweather + Grafana + SOPS
 
@@ -36,7 +36,7 @@ Technical stack used:
 
 ![MyWeather Search Screenshot](./assets/myweather.jpg)
 
-## Architecture Highlevel simple
+## Highlevel Architecture
 
 High level overview of the architecture.
 
@@ -90,8 +90,6 @@ Contributions are welcome! Please open issues or submit pull requests via [GitHu
 
 
 ## Kubernetes Deployment 
-
-kubectl apply -f manifests/staging/namespace.yaml
 
 ### Encrypted secret files are decrypted on the K8s machine but still in the memory to secure API Key
 
