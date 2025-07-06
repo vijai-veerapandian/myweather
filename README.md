@@ -87,3 +87,22 @@ Diagram or description of all components, their interactions, and how data flows
 ## Contributing
 
 Contributions are welcome! Please open issues or submit pull requests via [GitHub](https://github.com/vijai-veerapandian/myweather).
+
+
+## Kubernetes Deployment 
+
+kubectl apply -f manifests/staging/namespace.yaml
+
+### Encrypted secret files are decrypted on the K8s machine but still in the memory to secure API Key
+
+SOPS_AGE_KEY_FILE=./manifests/age.agekey sops --decrypt manifests/staging/backend-secret.yaml | kubectl apply -f -
+
+SOPS_AGE_KEY_FILE=./manifests/age.agekey sops --decrypt manifests/staging/cloud-secret.yaml | kubectl apply -f -
+
+### Deploying
+
+kubectl apply -f manifests/base/*.yaml
+
+### Logs Check
+
+kubectl logs -l app=cloudflare-myweather -n myweather tail=50
